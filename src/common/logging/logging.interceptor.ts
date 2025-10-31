@@ -1,3 +1,4 @@
+// Interceptors are used to transform responses or add extra logic before or after request handling.
 import {
   CallHandler,
   ExecutionContext,

@@ -96,3 +96,38 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+
+## Topics
+
+- Modules & dependency injection
+    Split your app into feature modules (UsersModule, AuthModule, PostsModule).
+    Use exports and imports for sharing providers.
+    Handle circular dependencies using forwardRef().
+- Database design (relations, repositories)
+	  User entity, Posts entity
+- Auth (JWT, guards, roles)
+	  Auth module
+- Microservices (RabbitMQ, Redis)
+- WebSockets
+- Background jobs n
+- Testing
+- Caching, configuration, and deployment
+
+- decerotors
+- dto
+- filters 
+- gurds
+- interceptors
+- interface
+	  TypeScript construct used to define a contract (shape) of an object or class.
+- middlewares
+	  TypeScript construct used to define a contract (shape) of an object or class.
+- pipes
+- providers
+	Functions executed before route handlers
+- services
+	  A type of provider containing core business logic and reusable code.
+- utils
+- ORM/ODM
+    TypeOrm/Prisms/Mongoose

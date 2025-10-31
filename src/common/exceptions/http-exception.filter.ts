@@ -1,3 +1,4 @@
+//Filter -> Filters handle exceptions (errors) thrown in your application.
 import { ArgumentsHost, Catch, ExceptionFilter, HttpException } from "@nestjs/common";
 
 @Catch()
