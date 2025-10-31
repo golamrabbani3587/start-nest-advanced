@@ -18,8 +18,9 @@ export class JwtAuthGuard implements CanActivate {
     if (!token) throw new UnauthorizedException('Missing token');
 
     try {
+
       // Verify and decode token
-      const decoded = jwt.verify(token, process.env.JWT_SECRET || 'my-secret');
+      const decoded = jwt.verify(token, process.env.JWT_SECRET_KEY as string);
 
       // Attach user info to request
       request.user = decoded;
